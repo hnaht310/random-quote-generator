@@ -5,12 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>random_quote_generator</title>
-    <link rel="stylesheet" href="" />
+    <!-- styling -->
+    <link rel="stylesheet" href="stylesheet.css" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap"
+      rel="stylesheet"
+    />
+    <!-- script -->
     <script src="app.js" defer></script>
   </head>
   <body>
-    <h1>Quote of the day</h1>
-    <button>Get a quote</button>
-    <h2 class="quote"></h2>
+    <main>
+      <div class="intro">
+        <h1>Quote of the day</h1>
+        <button>Get a quote</button>
+      </div>
+      <div class="quote-container">
+        <p id="quote"></p>
+        <span id="author"></span>
+      </div>
+    </main>
   </body>
 </html>
